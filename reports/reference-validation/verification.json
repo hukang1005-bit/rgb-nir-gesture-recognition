@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "raw_clips": 38,
+  "raw_views": 66,
+  "all1440_PC_vs_folded_max_error": 4.085620730620576e-14,
+  "PCA_orthogonality_max_error": 4.523513811833027e-14,
+  "PCA_covariance_offdiag_max_error": 1.252608989877453e-13,
+  "SVM_stationarity_relative_error": 3.750216277629011e-08,
+  "cache": {
+    "complete": true,
+    "signature": "4cabc205ce0da5c613f440d33bd7a2539b9dba693d35a178f93a940d2320134d",
+    "dataset_root": "data/Briareo",
+    "clips": 1440,
+    "computed_views": 3312,
+    "exact_reference_views": 3312,
+    "sampling_exact_reference": true,
+    "cache_sha256": {
+      "features.npy": "cc81ef539a74ea7ae1e954be180803238c33fd6c3f5db5c33c6fe5f0cbcca358",
+      "sampling_indices.npy": "44dc6e225026d4cc45600ce7ec9fa2317e6a5825aa49ae3568254b990acdc194"
+    }
+  }
+}

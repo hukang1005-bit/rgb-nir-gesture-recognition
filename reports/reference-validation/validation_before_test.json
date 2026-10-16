@@ -1,0 +1,24 @@
+{
+  "experiment": "gray_energy_temporal_svm",
+  "signature": "4cabc205ce0da5c613f440d33bd7a2539b9dba693d35a178f93a940d2320134d",
+  "C": 1.0,
+  "rank": 1201,
+  "retained_variance": 0.9000883527437312,
+  "val_correct": 188,
+  "val_n": 216,
+  "val_acc": 0.8703703703703703,
+  "parameters": 338700,
+  "PC_coefficients": 14424,
+  "svm_iterations": 11,
+  "test_not_evaluated_in_training": true,
+  "versions": {
+    "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "skimage": "0.24.0",
+    "sklearn": "1.5.2",
+    "torch": "2.8.0",
+    "pillow": "11.3.0"
+  }
+}
