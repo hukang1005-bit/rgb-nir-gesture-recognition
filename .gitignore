@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.user
+*.suo
+.vs/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.log
+outputs*/
+data/
