@@ -1,8 +1,9 @@
 {
-  "device/raw_csv/450.csv": "850741009333a40f27acdc8d5d8af75c2fb8bb4f46a90a44cb3d46714af0a3b5",
-  "device/raw_csv/520.csv": "1e93b1650efd9e259ace869ab3627b65e63a4bd9de8f9f9eef8966f498192390",
-  "device/raw_csv/660.csv": "6113b42efa4b6cd5b6bef9a5b916c34d5c01732b1d3ce8d5e8a17332c1edba04",
-  "device/raw_csv/808.csv": "e95a167fe5315881e104e8398176818b69e9e393f68f52d00292ae03b426c8c0",
+  "device/raw_csv/450.csv.gz": "8e6e5427ccacc857323396e7617cd3d72e8491a52649af11a63d8b0319e91053",
+  "device/raw_csv/520.csv.gz": "dbee9a7631013f32876d6c001a13537f6e90b4d7721d0cc6a22bba2226615548",
+  "device/raw_csv/660.csv.gz": "5896e39b612f7c3e902a6214a816476830147b40b3f3c3a4716cd120a90603a3",
+  "device/raw_csv/808.csv.gz": "2fa31c73009bb89a398b875efc311f1bccf367251541c64a928dd4fc839b7333",
+  "device/raw_csv/SHA256.json": "10c57b8957a347e26c404f53f845f5141f503da5dcde1c81ce4db2b7e95c6141",
   "device/response_table.npz": "7fa56b99aaca63bbdb3a8615979bcfa6c0feec62a9845010b65ab2c3765397e1",
   "protocol/clips.json": "69f40bab698222f1a89ddd6b4cb340d97ded71bc6a03abf0b15f8fbee58cb27a",
   "protocol/feature_hashes.json": "43c039025f51eb83b4bdd14791d354f2daf28c38b1cb4bbe4150da3c28e07058",

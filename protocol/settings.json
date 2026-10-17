@@ -1,0 +1,62 @@
+{
+  "experiment": "gray_energy_temporal_svm",
+  "dataset": "Briareo paired RGB/ToF IR",
+  "splits": {
+    "train": 936,
+    "val": 216,
+    "test": 288
+  },
+  "subjects": {
+    "train": 26,
+    "val": 6,
+    "test": 8
+  },
+  "classes": [
+    "fist",
+    "pinch",
+    "flip-over",
+    "telephone",
+    "right swipe",
+    "left swipe",
+    "top-down swipe",
+    "bottom-up swipe",
+    "thumb",
+    "index",
+    "clockwise",
+    "counterclockwise"
+  ],
+  "class_names_cn": [
+    "握拳",
+    "捏合",
+    "翻手",
+    "电话",
+    "右划",
+    "左划",
+    "下划",
+    "上划",
+    "拇指",
+    "食指",
+    "顺时针",
+    "逆时针"
+  ],
+  "wavelengths": [
+    660,
+    520,
+    450,
+    808
+  ],
+  "thresholds": [
+    88.0,
+    89.0,
+    96.0,
+    20320.0
+  ],
+  "hog_cell": 14,
+  "pca_fraction": 0.9,
+  "svm_C": 1.0,
+  "views": 3,
+  "geometry_seed": 20261012,
+  "sampling_seed": 20261014,
+  "device_seed": 20261012,
+  "svm_seed": 0
+}

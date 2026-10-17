@@ -63,12 +63,14 @@ The optional `bootstrap.py` creates an environment and runs the experiment. Conf
 
 - `gray_experiment/`: preprocessing, encoding, training, evaluation
 - `protocol/`: fixed splits, image-relative paths, crop geometry, reference sampling and feature hashes
-- `device/`: measured response table and original 450/520/660/808 nm CSV traces
+- `device/`: measured response table and losslessly compressed 450/520/660/808 nm CSV traces (`.csv.gz`)
 - `pretrained/`: reference deployment parameters, predictions, and results
 - `examples/`: a current-domain prediction example
 - `reports/experiment_report.html`: offline reference report
 - `reports/reference-validation/`: supplied numerical validation evidence with machine paths removed
 - `ARTIFACTS_SHA256.json`: scientific-asset checksums
+
+To restore the original device traces when needed, run `python scripts/unpack_device_data.py`. The script checks each decompressed file against `device/raw_csv/SHA256.json`. Training and prediction use `response_table.npz` directly and do not require unpacking these traces.
 
 Generated caches and models are stored under `outputs/<signature>/`. Changes in dataset location or algorithm files create a separate cache signature. Local datasets, virtual environments, and generated outputs are ignored by Git.
 

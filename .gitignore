@@ -13,3 +13,5 @@ __pycache__/
 *.log
 outputs*/
 data/
+device/raw_csv/*.csv
+device/raw_csv/*.tmp
